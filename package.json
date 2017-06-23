@@ -1,0 +1,19 @@
+{
+  "name": "thorz.js",
+  "version": "1.0.0",
+  "description": "npm package for Thorz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmadata/thorz.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmadata/thorz.js/issues"
+  },
+  "homepage": "https://github.com/karmadata/thorz.js#readme"
+}
