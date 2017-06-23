@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/karmadata/thorz.js/issues"
   },
-  "homepage": "https://github.com/karmadata/thorz.js#readme"
+  "homepage": "https://github.com/karmadata/thorz.js#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
 }
