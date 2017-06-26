@@ -44,3 +44,4 @@ yarn.lock
 .vscode
 .idea
 tsconfig.json
+dist/
