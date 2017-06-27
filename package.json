@@ -1,9 +1,12 @@
 {
   "name": "thorz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npm package for Thorz",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "publish-beta": "npm --no-git-tag-version version patch && npm run build && npm publish --tag beta && node publishS3.js",
+    "publish-release": "npm --no-git-tag-version version patch && npm run build && npm publish && node publishS3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +20,10 @@
   },
   "homepage": "https://github.com/karmadata/thorz.js#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "request": "^2.81.0",
-    "request-promise": "^4.2.1"
+    "request-promise": "^4.2.1",
+    "s3": "^4.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
